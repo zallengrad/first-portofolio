@@ -1,0 +1,341 @@
+body {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+  }
+
+/* header n navigation bar */
+
+header {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  /* display: block; */
+}
+
+.logo {
+  width: 50%;
+  /* background-color: aqua; */
+  margin-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  gap: 20px;
+  width: 50%;
+  /* background-color: blueviolet; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  -moz-text-decoration-line: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li :hover {
+  color: chocolate;
+}
+
+
+
+/* jumbotron / home */
+
+#home {
+  padding-top: 40px;
+  height: 100vh;
+  /* background-color: rgb(105, 105, 94); */
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: x-large;
+  width: 50%;
+  padding: 40px;
+}
+.description h4{
+  font-weight: 300;
+}
+.profil {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  /* background-color: rgb(104, 52, 104); */
+}
+.description h1 span {
+  color: #d2691e;
+}
+.description > a {
+  /* all: unset; */
+  font-size: medium;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: chocolate;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.description a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(183, 95, 32);
+}
+
+/* about me */
+#about-me {
+  /* height: 100vh; */
+  padding: 10px;
+  /* background-color: rgb(114, 67, 5); */
+}
+
+#about-me h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#about-me .desc-about-me {
+  /* display: block; */
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  width: 100%;  
+  /* background-color: rgb(62, 54, 43); */
+}
+
+#about-me > img {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+  object-position: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#about-me > section {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#about-me .zale-corp {
+  width: 40%;
+  /* position: relative; */
+  margin-left: 40px;
+}
+
+.biodata {
+  width: 60%;
+  line-height: 5px;
+  /* background-color: #d2691e; */
+}
+
+.biodata p {
+  width: 30%;
+  font-weight: 800;
+}
+
+.biodata .nama {
+  display: flex;
+  align-items: center;
+} 
+
+/* #about-me .biodata {
+  line-height: 2rem;
+  align-items: start;
+} */
+
+/* skill */
+#skill {
+  margin-top: 10px;
+  padding-top: 50px;
+  text-align: center;
+  /* margin-bottom: 2000px; */
+}
+
+#skill h1 {
+  font-size: xx-large;
+}
+
+.skill-param {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill-param p {
+  width: 30%;
+}
+
+.skill-param .skala {
+  width: 50%;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(84, 43, 14);
+}
+
+.diagram-1 {
+  width: 85%;
+  background-color: chocolate;
+  color: chocolate;
+}
+
+.diagram-2 {
+  width: 92%;
+  background-color: chocolate;
+  color: chocolate;
+}
+
+.diagram-3 {
+  width: 100%;
+  background-color: chocolate;
+  color: chocolate;
+}
+
+.diagram-4 {
+  width: 70%;
+  background-color: chocolate;
+  color: chocolate;
+}
+
+.diagram-5 {
+  width: 84%;
+  background-color: chocolate;
+  color: chocolate;
+}
+
+.persen {
+  width: 10%;
+}
+
+/* contact */
+.contact-us{
+    font-size: x-large;
+    width: 50%;
+    padding: 40px;
+}
+
+.contact-us h4{
+  font-weight: 300;
+}
+
+.contact-us h1 span {
+  color: chocolate;
+}
+
+#contact {
+  padding-top: 40px;
+  height: 100vh;
+  /* background-color: rgb(105, 105, 94); */
+  display: flex;
+  align-items: center;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact a:hover {
+  color: chocolate;
+  
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  background-color: chocolate;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  /* #content, aside {
+    width: 100%;
+    padding: 0;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+
+  /* body {
+    width: 100%;
+    overflow: hidden;
+  } */
+
+  #home {
+    width: 100%;
+    /* position: static;
+    top: 200px; */
+    padding-top: 1px;
+    height: 100vh;
+     overflow: hidden;
+  }
+
+  #home .profil img {
+    width: 300px;
+  }
+
+  #about-me section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .zale-corp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .biodata {
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 100%;
+    margin-top: 10px;
+    -webkit-transform: translateX(-40%);
+    -moz-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+}
+
+  .nama {
+    font-size: smaller;
+  }
+}
