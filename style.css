@@ -339,3 +339,7 @@ a {
     font-size: smaller;
   }
 }
+
+.end {
+  color: red;
+}
